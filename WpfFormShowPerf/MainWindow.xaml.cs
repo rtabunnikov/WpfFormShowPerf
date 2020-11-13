@@ -71,20 +71,38 @@ namespace WpfFormShowPerf {
         }
 
         private void butNoRibbon_Click(object sender, RoutedEventArgs e) {
-            Measure("XpfSpreadsheet w/o ribbon", RunNoRibbon);
+            Measure("XpfSpreadsheet w/o ribbon", RunSpreadsheetNoRibbon);
         }
 
-        void RunNoRibbon() {
+        void RunSpreadsheetNoRibbon() {
             var window = new SpreadsheetNoRibbon();
             window.ShowDialog();
         }
 
         private void butRibbon_Click(object sender, RoutedEventArgs e) {
-            Measure("XpfSpreadsheet ribbon designtime", RunRibbonDesigntime);
+            Measure("XpfSpreadsheet ribbon designtime", RunSpreadsheetRibbonDesigntime);
         }
 
-        void RunRibbonDesigntime() {
+        void RunSpreadsheetRibbonDesigntime() {
             var window = new SpreadsheetRibbonDesigntime();
+            window.ShowDialog();
+        }
+
+        private void butRichNoRibbon_Click(object sender, RoutedEventArgs e) {
+            Measure("XpfRichEdit w/o ribbon", RunRichEditNoRibbon);
+        }
+
+        void RunRichEditNoRibbon() {
+            var window = new RichEditNoRibbon();
+            window.ShowDialog();
+        }
+
+        private void butRichRibbon_Click(object sender, RoutedEventArgs e) {
+            Measure("XpfRichEdit ribbon designtime", RunRichEditRibbonDesigntime);
+        }
+
+        void RunRichEditRibbonDesigntime() {
+            var window = new RichEditRibbonDesigntime();
             window.ShowDialog();
         }
     }

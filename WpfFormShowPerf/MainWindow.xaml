@@ -16,8 +16,10 @@
                 <StackPanel.Background>
                     <SolidColorBrush Color="{DynamicResource {x:Static SystemColors.ControlColorKey}}"/>
                 </StackPanel.Background>
-                <Button x:Name="butNoRibbon" Content="No ribbon" HorizontalAlignment="Left" Margin="10,10,0,10" Width="75" Click="butNoRibbon_Click"/>
-                <Button x:Name="butRibbon" Content="Ribbon designtime" HorizontalAlignment="Left" Margin="10,10,0,10" Width="130" Click="butRibbon_Click"/>
+                <Button x:Name="butNoRibbon" Content="Spreadsheet w/o ribbon" HorizontalAlignment="Left" Margin="10,10,0,10" Width="150" Click="butNoRibbon_Click"/>
+                <Button x:Name="butRibbon" Content="Spreadsheet ribbon designtime" HorizontalAlignment="Left" Margin="10,10,0,10" Width="190" Click="butRibbon_Click"/>
+                <Button x:Name="butRichNoRibbon" Content="RichEdit w/o ribbon" HorizontalAlignment="Left" Margin="10,10,0,10" Width="140" Click="butRichNoRibbon_Click"/>
+                <Button x:Name="butRichRibbon" Content="RichEdit ribbon designtime" HorizontalAlignment="Left" Margin="10,10,0,10" Width="180" Click="butRichRibbon_Click"/>
             </StackPanel>
             <TextBox Name="textBox1" Grid.Row="1" TextWrapping="Wrap" AcceptsReturn="True" VerticalScrollBarVisibility="Visible" Margin="8,8,8,8"/>
         </Grid>
