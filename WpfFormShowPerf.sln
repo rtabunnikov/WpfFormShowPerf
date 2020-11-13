@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfFormShowPerf", "WpfFormShowPerf\WpfFormShowPerf.csproj", "{42642C54-3672-4E14-AD1D-BBFCBF02C9F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42642C54-3672-4E14-AD1D-BBFCBF02C9F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42642C54-3672-4E14-AD1D-BBFCBF02C9F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42642C54-3672-4E14-AD1D-BBFCBF02C9F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42642C54-3672-4E14-AD1D-BBFCBF02C9F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5931417F-B848-411E-8372-CC1E810A9376}
+	EndGlobalSection
+EndGlobal
